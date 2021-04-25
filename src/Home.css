@@ -1,0 +1,10 @@
+.home__section{
+    display: flex;
+    padding: 30px;
+}
+
+@media(max-width: 786px){
+    .home__section{
+      flex-direction: column;
+    }
+  }
